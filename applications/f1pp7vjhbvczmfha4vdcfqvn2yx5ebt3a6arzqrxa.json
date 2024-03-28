@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "ID": "f1pp7vjhbvczmfha4vdcfqvn2yx5ebt3a6arzqrxa",
+  "Issue Number": "25",
+  "Client": {
+    "Name": "Smithsonian Institution",
+    "Region": "United States",
+    "Industry": "Arts & Recreation",
+    "Website": "https://www.si.edu/",
+    "Social Media": "https://www.si.edu/about",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Project Id": "1",
+    "Brief history of your project and organization": "D&D Tech is a technology company based in Hong Kong. We specialize in data storage, data encryption. Is a participant and builder of Filecoin and IPFS.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Smithsonian’s mission is the \"increase and diffusion of knowledge\" and has been collecting since 1846. The Smithsonian, through its efforts to digitize its multidisciplinary collections, has created millions of digital assets and related metadata describing the collection objects. On February 25th, 2020, the Smithsonian released over 2.8 million CC0 interdisciplinary 2-D and 3-D images, related metadata, and additionally, research data from researches across the Smithsonian. The 2.8 million \"open access\" collections are a subset of the Smithsonian’s 155 million objects, 2.1 million library volumes and 156,000 cubic feet of archival collections held in 19 museums, 9 research centers, libraries, archives and the National Zoo. Digitization of collections is ongoing.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "After we download data from the Internet, the data is cut into disks through Singularity, and then the hard disk is mailed to the SPs.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://smithsonian-open-access/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02932313 HongKong\r\nf02192588 Hunan\r\nf02831252 Guangdong\r\nf02824414 Japan\r\nf02901026 Sichuan",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2024-03-28 12:13:17.793481635 UTC",
+    "Validated By": "FroghubMan",
+    "Active": true,
+    "Updated At": "2024-03-28 12:15:33.785222963 UTC",
+    "Active Request ID": "ce443e7a-5c17-43d4-8d3b-7b198eb589ec",
+    "On Chain Address": "f1pp7vjhbvczmfha4vdcfqvn2yx5ebt3a6arzqrxa",
+    "Multisig Address": "false"
+  },
+  "Allocation Requests": [
+    {
+      "ID": "ce443e7a-5c17-43d4-8d3b-7b198eb589ec",
+      "Request Type": "First",
+      "Created At": "2024-03-28 12:13:17.793486760 UTC",
+      "Updated At": "2024-03-28 12:13:17.793487710 UTC",
+      "Active": false,
+      "Allocation Amount": "1PiB",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1we33qh5zzzx2cuedwirpphotlkexh6tvbujok2y",
+          "Created At": "2024-03-28 12:15:31.301000000 UTC",
+          "Message CID": "bafy2bzaceba4tgvju6sqa6r4dga5pamaajqowz7l4rsylaen2ibt5do4hrymg"
+        }
+      ]
+    }
+  ]
+}
