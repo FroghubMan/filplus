@@ -36,14 +36,24 @@
     "Weekly Allocation": "1"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2024-03-28 09:56:41.056696970 UTC",
+    "Validated By": "FroghubMan",
     "Active": true,
-    "Updated At": "2024-03-28 09:55:36.353761381 UTC",
-    "Active Request ID": "",
+    "Updated At": "2024-03-28 09:56:41.056701959 UTC",
+    "Active Request ID": "7f7c93c1-c245-446d-82a6-828f22b37fac",
     "On Chain Address": "f1nnayqojv3og6j653zczndzzo45jjluhtanwgfna",
     "Multisig Address": "false"
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "7f7c93c1-c245-446d-82a6-828f22b37fac",
+      "Request Type": "First",
+      "Created At": "2024-03-28 09:56:41.056703848 UTC",
+      "Updated At": "2024-03-28 09:56:41.056705086 UTC",
+      "Active": true,
+      "Allocation Amount": "1",
+      "Signers": []
+    }
+  ]
 }
