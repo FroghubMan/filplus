@@ -36,11 +36,11 @@
     "Weekly Allocation": "400TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-02 07:54:47.694671595 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
-    "Updated At": "2024-04-02 07:54:47.694674750 UTC",
+    "Updated At": "2024-04-02 07:56:56.866932378 UTC",
     "Active Request ID": "a15e51f5-d9d0-460b-89e7-e926947e2faa",
     "On Chain Address": "f1glat2irkwgfzqbc65tj6uog7pupizjueaoxm7gq",
     "Multisig Address": "false"
@@ -51,9 +51,16 @@
       "Request Type": "First",
       "Created At": "2024-04-02 07:54:47.694676552 UTC",
       "Updated At": "2024-04-02 07:54:47.694677138 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "400TiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1we33qh5zzzx2cuedwirpphotlkexh6tvbujok2y",
+          "Created At": "2024-04-02 07:56:54.385000000 UTC",
+          "Message CID": "bafy2bzacecjwumzt2p6dhbjw4lqat7faqzjqafvvfkcj2n6znifqomfk5iv2w"
+        }
+      ]
     }
   ]
 }
