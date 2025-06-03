@@ -35,12 +35,12 @@
     "Weekly Allocation": "1 GiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
+    "State": "Declined",
     "Validated At": "2024-03-28 10:30:56.005675488 UTC",
     "Validated By": "FroghubMan",
-    "Active": true,
-    "Updated At": "2024-03-28 10:30:56.005678751 UTC",
-    "Active Request ID": "cacc9354-3ac8-459b-8fa5-646745e52b47",
+    "Active": false,
+    "Updated At": "2025-06-03 08:47:39.902678933 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1rj76la4p2cjuorreehnhsqjjc644azymbcsthiq",
     "Multisig Address": "false",
     "edited": false
