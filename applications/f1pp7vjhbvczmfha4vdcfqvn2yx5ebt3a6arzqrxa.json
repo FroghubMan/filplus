@@ -12,7 +12,6 @@
     "Role": "Data Preparer"
   },
   "Project": {
-    "Project Id": "1",
     "Brief history of your project and organization": "D&D Tech is a technology company based in Hong Kong. We specialize in data storage, data encryption. Is a participant and builder of Filecoin and IPFS.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
     "Describe the data being stored onto Filecoin": "The Smithsonian’s mission is the \"increase and diffusion of knowledge\" and has been collecting since 1846. The Smithsonian, through its efforts to digitize its multidisciplinary collections, has created millions of digital assets and related metadata describing the collection objects. On February 25th, 2020, the Smithsonian released over 2.8 million CC0 interdisciplinary 2-D and 3-D images, related metadata, and additionally, research data from researches across the Smithsonian. The 2.8 million \"open access\" collections are a subset of the Smithsonian’s 155 million objects, 2.1 million library volumes and 156,000 cubic feet of archival collections held in 19 museums, 9 research centers, libraries, archives and the National Zoo. Digitization of collections is ongoing.",
@@ -36,14 +35,15 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2024-03-28 12:13:17.793481635 UTC",
     "Validated By": "FroghubMan",
-    "Active": true,
-    "Updated At": "2024-03-28 12:15:33.785222963 UTC",
-    "Active Request ID": "ce443e7a-5c17-43d4-8d3b-7b198eb589ec",
+    "Active": false,
+    "Updated At": "2025-06-03 08:40:40.612375491 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1pp7vjhbvczmfha4vdcfqvn2yx5ebt3a6arzqrxa",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": null
   },
   "Allocation Requests": [
     {
