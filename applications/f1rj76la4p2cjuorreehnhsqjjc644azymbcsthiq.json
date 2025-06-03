@@ -1,5 +1,5 @@
 {
-  "Version": 1,
+  "Version": "1.3",
   "ID": "f1rj76la4p2cjuorreehnhsqjjc644azymbcsthiq",
   "Issue Number": "13",
   "Client": {
@@ -12,7 +12,6 @@
     "Role": "Dataset Owner"
   },
   "Project": {
-    "Project Id": "13",
     "Brief history of your project and organization": "test",
     "Is this project associated with other projects/ecosystem stakeholders?": "Yes",
     "Describe the data being stored onto Filecoin": "test",
@@ -30,30 +29,21 @@
   "Datacap": {
     "Type": "ldn-v3",
     "Data Type": "Slingshot",
-    "Total Requested Amount": "1",
-    "Single Size Dataset": "10",
+    "Total Requested Amount": "1 TiB",
+    "Single Size Dataset": "10 GiB",
     "Replicas": 4,
-    "Weekly Allocation": "1"
+    "Weekly Allocation": "1 GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Declined",
     "Validated At": "2024-03-28 10:30:56.005675488 UTC",
     "Validated By": "FroghubMan",
-    "Active": true,
-    "Updated At": "2024-03-28 10:30:56.005678751 UTC",
-    "Active Request ID": "cacc9354-3ac8-459b-8fa5-646745e52b47",
+    "Active": false,
+    "Updated At": "2025-06-03 08:47:39.902678933 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1rj76la4p2cjuorreehnhsqjjc644azymbcsthiq",
-    "Multisig Address": "false"
+    "Multisig Address": "false",
+    "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "cacc9354-3ac8-459b-8fa5-646745e52b47",
-      "Request Type": "First",
-      "Created At": "2024-03-28 10:30:56.005679995 UTC",
-      "Updated At": "2024-03-28 10:30:56.005680780 UTC",
-      "Active": true,
-      "Allocation Amount": "1",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
