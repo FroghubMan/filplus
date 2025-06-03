@@ -35,7 +35,7 @@
     "Weekly Allocation": "1 GiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Submitted",
     "Validated At": "2024-03-28 10:30:56.005675488 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
@@ -43,17 +43,7 @@
     "Active Request ID": "cacc9354-3ac8-459b-8fa5-646745e52b47",
     "On Chain Address": "f1rj76la4p2cjuorreehnhsqjjc644azymbcsthiq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
-  "Allocation Requests": [
-    {
-      "ID": "cacc9354-3ac8-459b-8fa5-646745e52b47",
-      "Request Type": "First",
-      "Created At": "2024-03-28 10:30:56.005679995 UTC",
-      "Updated At": "2024-03-28 10:30:56.005680780 UTC",
-      "Active": true,
-      "Allocation Amount": "1",
-      "Signers": []
-    }
-  ]
+  "Allocation Requests": []
 }
