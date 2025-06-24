@@ -35,7 +35,7 @@
     "Weekly Allocation": "400TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-06-07 04:16:43.880395160 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "f46c1607-7358-49a4-94de-c536c980c7b0",
     "On Chain Address": "f1glat2irkwgfzqbc65tj6uog7pupizjueaoxm7gq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
