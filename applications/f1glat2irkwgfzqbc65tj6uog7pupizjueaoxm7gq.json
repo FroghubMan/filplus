@@ -1,5 +1,5 @@
 {
-  "Version": 1,
+  "Version": "1.3",
   "ID": "f1glat2irkwgfzqbc65tj6uog7pupizjueaoxm7gq",
   "Issue Number": "31",
   "Client": {
@@ -14,7 +14,7 @@
   "Project": {
     "Brief history of your project and organization": "Revelation Limited is a technology company based in Hong Kong. We are mainly in the blockchain business. Business covers Bitcoin, ETH, Filecoin, Chia, spacemech, livepeer, io.net, subspace, etc. There are rich development and server operation and maintenance operations. We are also one of Fielcoin's storage providers.",
     "Is this project associated with other projects/ecosystem stakeholders?": "No",
-    "Describe the data being stored onto Filecoin": "Disclaimer: \r\nDue to un-answered issues around whether combined requests or duplicate requests can be used to apply LDN. This is a series of recent new open datasets never applied by anybody (aka calling dibs).\r\n\r\nDescription: \r\nThe Cell Painting Gallery is a collection of image datasets created using the Cell Painting assay. The images of cells are captured by microscopy imaging, and reveal the response of various labeled cell components to whatever treatments are tested, which can include genetic perturbations, chemicals or drugs, or different cell types. \r\n\r\ns3://cellpainting-gallery",
+    "Describe the data being stored onto Filecoin": "Disclaimer: \nDue to un-answered issues around whether combined requests or duplicate requests can be used to apply LDN. This is a series of recent new open datasets never applied by anybody (aka calling dibs).\n\nDescription: \nThe Cell Painting Gallery is a collection of image datasets created using the Cell Painting assay. The images of cells are captured by microscopy imaging, and reveal the response of various labeled cell components to whatever treatments are tested, which can include genetic perturbations, chemicals or drugs, or different cell types. \n\ns3://cellpainting-gallery",
     "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
     "How do you plan to prepare the dataset": "No response",
     "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/cellpainting-gallery/",
@@ -23,7 +23,7 @@
     "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
     "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China",
     "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
-    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02831252 Guangdong\r\nf02831211 HongKong\r\nf02051391 HongKong\r\nf02824414 Tokyo,Japan\r\nf02831203 HongKong\r\nf01989372 BeiJing\r\nThere are also new sp's that will be added later.",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03289271 Germany\nf03315260 Germany\nf03367915 United States\nf03368008 Vietnam\nf03542777 Vietnam",
     "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
   },
   "Datacap": {
@@ -43,7 +43,7 @@
     "Active Request ID": "f46c1607-7358-49a4-94de-c536c980c7b0",
     "On Chain Address": "f1glat2irkwgfzqbc65tj6uog7pupizjueaoxm7gq",
     "Multisig Address": "false",
-    "edited": null
+    "edited": false
   },
   "Allocation Requests": [
     {
