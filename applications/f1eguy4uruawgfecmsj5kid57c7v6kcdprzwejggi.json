@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1eguy4uruawgfecmsj5kid57c7v6kcdprzwejggi",
+  "Issue Number": "48",
+  "Client": {
+    "Name": "Xiamen Kona Tea Co., Ltd",
+    "Region": "China",
+    "Industry": "Information, Media & Telecommunications",
+    "Website": "www.konatea.com",
+    "Social Media": "www.konatea.com",
+    "Social Media Type": "Other",
+    "Role": "Dataset Owner"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Chinese people drinking tea is not only a habit, but also an accumulation of historical and cultural heritage. This culture has lasted for thousands of years.\nThe Tea Road was once a new international trade route that emerged on the Eurasian continent after the decline of the world-renowned Silk Road. It has promoted the widespread dissemination of traditional Chinese culture, with tea culture as the main body, in Russia and even Europe; Communication and exchange between Chinese civilization and world civilization. Its influence continues to this day.\nUndoubtedly, the Tea Road opened the closed doors of ancient empires, leaving behind a precious historical memory for future generations.\n\nXiamen Kona Tea Co., Ltd., established in 2010, is located in Xiamen, Fujian Province. It is an enterprise mainly engaged in the manufacturing of liquor, beverages, and refined tea",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Tea culture is a type of culture that uses tea as a carrier and aims to reflect the traditional ideology, morality, and humanistic spirit of Eastern countries, including data related to tea etiquette, customs, tea laws, tea regulations, tea techniques, and tea art",
+    "Where was the data currently stored in this dataset sourced from": "My Own Storage Infra",
+    "How do you plan to prepare the dataset": "We have experience with the singularity tool, the relevant commands are as follows\n\n`singularity prep list`\n`singularity prep status MyData`\n`singularity prep create MyData ~/dataset/folder ~/outDir `\n`singularity prep generation-status --dataset MyData <index>`",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://drive.google.com/drive/folders/1aC9p75oxaaJMQCF8LJcQdrqHZKnjjYbF?usp=sharing\nhttps://drive.google.com/drive/folders/1dfg-v84jpWwQIVcsblvcLBmKYmhvvAmC?usp=sharing",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China, North America, South America",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03377773 Vietnam\nf03377778 Vietnam\nf03373733 Guangdong\nf03373337 Guangdong\nf03373373 Guangdong\nf03081952 CALIFORNIA\nf03577777  Singapore\nf03577778  Singapore\nf03567898  Shenzhen\nf03567899  Shenzhen",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "5PiB",
+    "Single Size Dataset": "500TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-07-31 06:01:37.697803716 UTC",
+    "Validated By": "FroghubMan",
+    "Active": true,
+    "Updated At": "2025-07-31 06:01:37.697799165 UTC",
+    "Active Request ID": "7dad1d60-3562-4dbd-84bc-5a403e372a79",
+    "On Chain Address": "f1eguy4uruawgfecmsj5kid57c7v6kcdprzwejggi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "7dad1d60-3562-4dbd-84bc-5a403e372a79",
+      "Request Type": "First",
+      "Created At": "2025-07-31 05:59:24.974009171 UTC",
+      "Updated At": "2025-07-31 05:59:24.974010359 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Created At": "2025-07-31 06:01:31.654000000 UTC",
+          "Message CID": "bafy2bzacede5lbahc5qk2hyxvixt5rhluoq7tsoj3mimicp2me7kqjk7ub4ea"
+        }
+      ]
+    }
+  ]
+}
