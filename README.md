@@ -1,4 +1,4 @@
-# Filecoin Plus DataCap Allocator - Client Applications
+# FrogHub DataCap Allocator - Client Applications
 
 Welcome to the dedicated Froghub Tech DC Allocator channel. This repository serves as a public ledger for DataCap allocation requests and tracking, improving the transparency and efficiency of the process.
 
