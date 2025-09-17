@@ -35,12 +35,12 @@
     "Weekly Allocation": "300TiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "Declined",
     "Validated At": "2025-04-18 11:19:08.188725544 UTC",
     "Validated By": "FroghubMan",
-    "Active": true,
-    "Updated At": "2025-04-18 11:19:08.188721528 UTC",
-    "Active Request ID": "7536727c-d7aa-46b7-a0d3-5030edf30b94",
+    "Active": false,
+    "Updated At": "2025-09-17 04:06:46.036820213 UTC",
+    "Active Request ID": null,
     "On Chain Address": "f1mzrgylxdju6gchw4uxmvcvydvvnkivr2nfo5xwi",
     "Multisig Address": "false",
     "edited": null
