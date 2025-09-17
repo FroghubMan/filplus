@@ -5,9 +5,6 @@ Welcome to the dedicated Froghub Tech DC Allocator channel. This repository serv
 ## Overview
 
 Filecoin Plus (Fil+) not only stores data but also verifies the utility of the stored data, thereby enhancing the utility of Filecoin. DataCap is allocated to clients based on their storage needs and the value their data brings to the Filecoin network. Our team uses a shared multi-signature wallet to act as a DataCap allocator, evaluating and verifying client requests.
-
-## How It Works
-
 This GitHub repository is not a traditional code repository, but rather a structured ledger for processing DataCap requests by client applications. The lifecycle of each application, from request to allocation, is publicly documented here.
 
 ### Applying for DataCap
@@ -18,7 +15,12 @@ This GitHub repository is not a traditional code repository, but rather a struct
 - Number of data replicas and list of SPs.
 - KYC applicant information
 
-2. **Fill out the application template**: The issue template will guide clients in submitting the required information for the DataCap application.
+2. **Required Documents**: These documents are crucial for application approval.
+- Prior to initial approval, the client must provide legal documents related to the individual/company to complete a thorough KYC process.
+- Healthy data distribution: The SPs must be located in at least 2 continents and at least 4 cities.
+- Proof of data size: The client must demonstrate that the data size requested is consistent with the claimed size. During the initial review, it is recommended to provide a list of documents and proof of file size.
+- Providing index files. index file are crucial for convenient data retrieval. Therefore, the client must be able to provide an index file and continuously update it as data increases.
+- Meeting Spark's retrieval requirements. Although Spark may sometimes have bugs, the client is still responsible for ensuring that the SPs provides a good retrieval rate and RPA.
 
 ### Review and Assignment Process
 
