@@ -1,0 +1,107 @@
+{
+  "Version": "1.3",
+  "ID": "f1i7liy2zu7nfi5crqhpm65qlaz7o35rkw6tfnxxq",
+  "Issue Number": "58",
+  "Client Contract Address": "f410fbux62tpt2gfd4ytmwt46azx7b2ro7tdf3juiqvy",
+  "Client": {
+    "Name": "1000 Genomes",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://support.illumina.com/sequencing/sequencing_software/dragen-bio-it-platform.html",
+    "Social Media": "support@illumina.com",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "All DRAGEN analyses were performed in the cloud using the Illumina Connected Analytics bioinformatics platform powered by Amazon Web Services (see 'Data solution empowering population genomics' for more information). The v3.7.6 and v4.2.7 datasets include results from trio small variant, de novo structural variant and de novo copy number variant calls on 602 trio families comprised of members from the 1000 Genomes Project Phase 3 dataset. Trio repeat expansion calling was included in the v3.7.6 dataset only. Joint cohort analysis was also performed on the entire 1KGP sample dataset (n=3202) for the v3.7.6, v4.0.3, and v4.2.7 reanalyses using DRAGEN GVCF Genotyper v3.8.3, v4.2.0, and v4.2.7, respectively (see 'Genotyping variants at population scale using DRAGEN gVCF Genotyper').",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "BAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, metrics and other supporting files from DRAGEN v3.5.6b analyses in a public S3 bucket.\n\nBAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2d6-tsv, metrics and other supporting files from DRAGEN v3.7.6 analyses in a public S3 bucket.\n\n\nCRAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2b6-tsv, cyp2d6-tsv, gba-tsv, smn-tsv, star-allele-tsv, metrics and other supporting files from DRAGEN v4.0.3 analyses and Nirvana Annotation in a public S3 bucket.\n\nCRAM, SNV-vcf, SNV-gvcf, STR-vcf, STR-bam, SV-vcf, ROH-vcf, CNV-vcf, CNV-bw, cyp2b6-tsv, cyp2d6-tsv, gba-tsv, smn-tsv, star-allele-tsv, hla-tsv, gvcf, json, metrics and other supporting files from DRAGEN v4.2.7 analyses and Nirvana Annotation in a public S3 bucket.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We used the Go language to develop a set of tools that automatically download, cut, package data, and place orders. The tool will download the data set file from AWS, package the data set into a car file of the corresponding size by setting parameters such as sector size, and then distribute the car file to each SP through bandwidth and hard disk mail. Then, we use Boost to issue orders offline to let the SP start packaging using the Boost.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://1000genomes-dragen/ 354.3269 TiB\naws s3 ls --no-sign-request s3://1000genomes-dragen-3.7.6/ 342.6459 TiB\naws s3 ls --no-sign-request s3://1000genomes-dragen-v3.7.6/（Duplicate） 342.6459 TiB\naws s3 ls --no-sign-request s3://1000genomes-dragen-v4.0.3/ 114.2916 TiB\naws s3 ls --no-sign-request s3://1000genomes-dragen-v4-2-7/ 69.5511 TiB",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03637821 Germany\nf03637813 Brazil\nf03649204 HongKong\nf03649212 HongKong\nf03649217 Singapore\nf03649227 Singapore\nf03641974 Vietnam\nf03641955 Germany",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "9.6PiB",
+    "Single Size Dataset": "1.2PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-10-07 04:37:41.569116261 UTC",
+    "Validated By": "FroghubMan",
+    "Active": true,
+    "Updated At": "2025-10-07 04:37:41.569112577 UTC",
+    "Active Request ID": "c92fe77a-26d1-44db-9185-654451d271fd",
+    "On Chain Address": "f1i7liy2zu7nfi5crqhpm65qlaz7o35rkw6tfnxxq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "c92fe77a-26d1-44db-9185-654451d271fd",
+      "Request Type": "First",
+      "Created At": "2025-10-07 04:28:42.225795336 UTC",
+      "Updated At": "2025-10-07 04:28:42.225796470 UTC",
+      "Active": false,
+      "Allocation Amount": "281474976710656 B",
+      "Amount of Datacap Sent to Contract": "281474976710656 B",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Created At": "2025-10-07 04:37:39.356000000 UTC",
+          "Message CID": "bafy2bzacebauejginxxxqah266kk7cgfomwdnk553vo424kokbhdmiay6iumm",
+          "Increase allowance CID": "bafy2bzacedrvhvxmiqoicig4a3whalux7cetotmo7fbzjtywjjfgdfopuvlno"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "a848e340-4ebe-49b6-b7a2-470547942fe7",
+      "Created At": "2025-10-07 04:34:40.718724661 UTC",
+      "Updated At": "2025-10-07 04:34:40.718729151 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3637821,
+        3637813,
+        3649204,
+        3649212,
+        3649217,
+        3649227,
+        3641974,
+        3641955
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Set Max Deviation CID": "bafy2bzacecsjleke6h65zcdoobcvgyqyqm5jg2w37dj67xhk3cf3bejx4mnvm",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacebcckfmrgnzirmpbsgjroymejtwhafrujymdqd6t2no36dx72s2mw": [
+              "3637821",
+              "3637813",
+              "3649204",
+              "3649212",
+              "3649217",
+              "3649227",
+              "3641974",
+              "3641955"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
