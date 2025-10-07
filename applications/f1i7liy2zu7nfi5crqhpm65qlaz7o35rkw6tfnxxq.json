@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1i7liy2zu7nfi5crqhpm65qlaz7o35rkw6tfnxxq",
   "Issue Number": "58",
+  "Client Contract Address": "f410fbux62tpt2gfd4ytmwt46azx7b2ro7tdf3juiqvy",
   "Client": {
     "Name": "1000 Genomes",
     "Region": "United States",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-10-07 04:28:42.225788540 UTC",
+    "Validated By": "FroghubMan",
     "Active": true,
-    "Updated At": "2025-09-17 16:17:41.768343007 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-10-07 04:28:42.225793239 UTC",
+    "Active Request ID": "c92fe77a-26d1-44db-9185-654451d271fd",
     "On Chain Address": "f1i7liy2zu7nfi5crqhpm65qlaz7o35rkw6tfnxxq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "c92fe77a-26d1-44db-9185-654451d271fd",
+      "Request Type": "First",
+      "Created At": "2025-10-07 04:28:42.225795336 UTC",
+      "Updated At": "2025-10-07 04:28:42.225796470 UTC",
+      "Active": true,
+      "Allocation Amount": "281474976710656 B",
+      "Signers": []
+    }
+  ]
 }
