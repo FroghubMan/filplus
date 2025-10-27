@@ -1,0 +1,105 @@
+{
+  "Version": "1.3",
+  "ID": "f1tmol4ive6uajr45d5a6ruz7tp3pjifbba7b2may",
+  "Issue Number": "66",
+  "Client Contract Address": "f410fbux62tpt2gfd4ytmwt46azx7b2ro7tdf3juiqvy",
+  "Client": {
+    "Name": "Division of Geographic Information",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "https://registry.opendata.aws/kyfromabove/",
+    "Social Media": "kyfromabove@ky.gov",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "KyFromAbove acquires aerial imagery and LiDAR during leaf-off conditions in the Commonwealth. The imagery typically ranges from 6-inches to 3-inches in resolution and is available from the kyfromabove Amazon S3 bucket in a [Cloud Optimized GeoTiff](https://www.cogeo.org/) format. All Phase 2 LiDAR data acquired by the program is [USGS Quality Level](https://www.usgs.gov/3d-elevation-program/topographic-data-quality-levels-qls) 2 (QL2), whereas approximately 40% of Phase 1 LiDAR data is considered QL3. Digital Elevation Models (DEMs) at a 5-foot (Phase 1) or 2-foot (Phase 2) resolution, point cloud data in an LAS format, spot elevations in a geopackage format, and contours in a geopackage format are also available from the kyfromabove Amazon S3 bucket. KyFromAbove LiDAR and imagery data resources are managed in a Kentucky-specific 5000x5000 foot grid (FIPS:1600) (EPSG:3089). Phase 1, Phase2, and Phase 3 imagery acquisitions have been completed. Phase 1 LiDAR acquisitions have been completed and Phase 2 was completed in February of 2024. Phase 3 LiDAR acquistions have been initiated. More details about the program can be found at https://kyfromabove.ky.gov/",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "KyFromAbove acquires aerial imagery and LiDAR during leaf-off conditions in the Commonwealth. The imagery typically ranges from 6-inches to 3-inches in resolution and is available from the kyfromabove Amazon S3 bucket in a [Cloud Optimized GeoTiff](https://www.cogeo.org/) format. All Phase 2 LiDAR data acquired by the program is [USGS Quality Level](https://www.usgs.gov/3d-elevation-program/topographic-data-quality-levels-qls) 2 (QL2), whereas approximately 40% of Phase 1 LiDAR data is considered QL3. Digital Elevation Models (DEMs) at a 5-foot (Phase 1) or 2-foot (Phase 2) resolution, point cloud data in an LAS format, spot elevations in a geopackage format, and contours in a geopackage format are also available from the kyfromabove Amazon S3 bucket. KyFromAbove LiDAR and imagery data resources are managed in a Kentucky-specific 5000x5000 foot grid (FIPS:1600) (EPSG:3089). Phase 1, Phase2, and Phase 3 imagery acquisitions have been completed. Phase 1 LiDAR acquisitions have been completed and Phase 2 was completed in February of 2024. Phase 3 LiDAR acquistions have been initiated. More details about the program can be found at https://kyfromabove.ky.gov/",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We used the Go language to develop a set of tools that automatically download, cut, package data, and place orders. The tool will download the data set file from AWS, package the data set into a car file of the corresponding size by setting parameters such as sector size, and then distribute the car file to each SP through bandwidth and hard disk mail. Then, we use Boost to issue orders offline to let the SP start packaging using the Lotus program.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://kyfromabove/ \nTotal Objects: 9387140\nTotal Size: 342.0 TiB\n\n\ns3://kyfromabove/elevation/DEM/Phase1/N047E381_2010_DEM_Phase1_cog.tif\ns3://kyfromabove/elevation/DEM/Phase1/N048E249_2012_DEM_Phase1_cog.tif\ns3://kyfromabove/elevation/DEM/Phase1/N048E283_2012_DEM_Phase1_cog.tif\ns3://kyfromabove/magery/orthos/tile-grids/kyfromabove_phase3_aerial_5k_grid.gpkg\ns3://kyfromabove/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N203E092_2024_Season1_3IN_cog.tif\ns3://kyfromabove/imagery/orthos/Phase3/KY_KYAPED_2024_Season1_3IN/N203E084_2024_Season1_3IN_cog.tfw",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03641984 Brazil\nf03641964 United States\nf03641915 Brazil\nf03641951 HongKong\nf03673681 Brazil\nf03669112 Singapore\nf03099008 Vietnam ",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "512TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-10-27 04:04:08.580307664 UTC",
+    "Validated By": "FroghubMan",
+    "Active": true,
+    "Updated At": "2025-10-27 04:04:08.580303166 UTC",
+    "Active Request ID": "119fcfc0-02a8-4562-8e53-82739458610b",
+    "On Chain Address": "f1tmol4ive6uajr45d5a6ruz7tp3pjifbba7b2may",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "119fcfc0-02a8-4562-8e53-82739458610b",
+      "Request Type": "First",
+      "Created At": "2025-10-27 03:51:40.189658514 UTC",
+      "Updated At": "2025-10-27 03:51:40.189660425 UTC",
+      "Active": false,
+      "Allocation Amount": "186916976721920 B",
+      "Amount of Datacap Sent to Contract": "186916976721920 B",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Created At": "2025-10-27 04:04:06.329000000 UTC",
+          "Message CID": "bafy2bzacealbyjf4sllu2hqhsdbkivv7bqx3hwc3nhffzljkpvctye3l4kqzc",
+          "Increase allowance CID": "bafy2bzacebnkvi32l7qsjoq32dgp5bgk6cag2eyloc6c5pn3dix53vikqoer6"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "0327a5eb-2e5f-4dd8-9997-e3820cd7f759",
+      "Created At": "2025-10-27 03:59:09.639192294 UTC",
+      "Updated At": "2025-10-27 03:59:09.639199203 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3641984,
+        3641964,
+        3641915,
+        3641951,
+        3673681,
+        3669112,
+        3099008
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Set Max Deviation CID": "bafy2bzacedizn2ryn72cgi4oauetwo2ey6goirhd6mytc25g5e6f3yhgnmzlc",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacedzyz6llkrieewykoikjkwymizeoed5kv3sagzpl7wbimuj44n4by": [
+              "3641984",
+              "3641964",
+              "3641915",
+              "3641951",
+              "3673681",
+              "3669112",
+              "3099008"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
