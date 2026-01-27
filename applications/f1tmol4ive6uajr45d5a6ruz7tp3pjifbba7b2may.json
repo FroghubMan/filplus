@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-01-27 14:26:32.897703100 UTC",
+    "State": "Granted",
+    "Validated At": "2026-01-27 14:35:41.248621371 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
-    "Updated At": "2026-01-27 14:26:32.897706602 UTC",
+    "Updated At": "2026-01-27 14:35:41.248616792 UTC",
     "Active Request ID": "a2ec70fc-e83c-427c-93ee-d7070954ce3a",
     "On Chain Address": "f1tmol4ive6uajr45d5a6ruz7tp3pjifbba7b2may",
     "Multisig Address": "false",
@@ -88,9 +88,16 @@
       "Request Type": "Refill",
       "Created At": "2026-01-27 14:26:32.897711780 UTC",
       "Updated At": "2026-01-27 14:26:32.897712463 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "844424930131968B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Created At": "2026-01-27 14:35:38.678000000 UTC",
+          "Increase allowance CID": "bafy2bzaced4lcyfnbux7rtfhgdxpmvxn5rq6gna43dzz6j4md5klxafglvfv2"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
