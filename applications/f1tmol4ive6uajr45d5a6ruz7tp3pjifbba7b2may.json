@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2026-02-13 05:20:11.309903664 UTC",
+    "State": "Granted",
+    "Validated At": "2026-02-13 05:26:10.622716898 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
-    "Updated At": "2026-02-13 05:20:11.309902150 UTC",
+    "Updated At": "2026-02-13 05:26:10.622713118 UTC",
     "Active Request ID": "1c7e3ed5-d442-4308-867f-63b67ef3b77d",
     "On Chain Address": "f1tmol4ive6uajr45d5a6ruz7tp3pjifbba7b2may",
     "Multisig Address": "false",
@@ -104,9 +104,18 @@
       "Request Type": "Refill",
       "Created At": "2026-02-13 05:16:44.700201509 UTC",
       "Updated At": "2026-02-13 05:16:44.700202612 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1688849860263936B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "1688849860263936B",
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Created At": "2026-02-13 05:26:08.092000000 UTC",
+          "Message CID": "bafy2bzacebkigxvcruu2uu43csjln7iddd7ctpkke43hjrx5ay7cvglauwlic",
+          "Increase allowance CID": "bafy2bzaceb3m2d3gxpzqipt6vcwtawie7o7f5hs4rcif7x7zpq7piv66hlvm6"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
