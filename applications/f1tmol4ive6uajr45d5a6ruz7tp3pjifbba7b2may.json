@@ -36,7 +36,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2026-01-27 14:35:41.248621371 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
