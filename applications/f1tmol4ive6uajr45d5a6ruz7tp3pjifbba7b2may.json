@@ -37,10 +37,10 @@
   },
   "Lifecycle": {
     "State": "ReadyToSign",
-    "Validated At": "2026-02-13 05:16:44.700188744 UTC",
+    "Validated At": "2026-02-13 05:20:11.309903664 UTC",
     "Validated By": "FroghubMan",
     "Active": true,
-    "Updated At": "2026-02-13 05:16:44.700192990 UTC",
+    "Updated At": "2026-02-13 05:20:11.309902150 UTC",
     "Active Request ID": "1c7e3ed5-d442-4308-867f-63b67ef3b77d",
     "On Chain Address": "f1tmol4ive6uajr45d5a6ruz7tp3pjifbba7b2may",
     "Multisig Address": "false",
@@ -176,6 +176,39 @@
               "3641951",
               "3673681",
               "3099008"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "ID": "66b6d5c2-36e6-4987-8bd5-a7eed455d385",
+      "Created At": "2026-02-13 05:20:11.309877149 UTC",
+      "Updated At": "2026-02-13 05:20:11.309884134 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        3100014,
+        3099777,
+        3099287,
+        3098965,
+        3099101
+      ],
+      "Signers": [
+        {
+          "Github Username": "FroghubMan",
+          "Signing Address": "f1l7ous5nwhksx3wvg772z4i6lyiostrsejijpizq",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzacec23syu2xdwrwrq4cvbbddz75ukfivgaec2ciswqzxfdnrowmwfmg": [
+              "3099287",
+              "3098965",
+              "3099101"
+            ]
+          },
+          "Remove Allowed Storage Providers CID": {
+            "bafy2bzacebcpbbhz2opqt44iomj27p4mwskniyg77ebf5z5goxxglgq3kdsvu": [
+              "3099888",
+              "3100088",
+              "3669112"
             ]
           }
         }
